@@ -6,20 +6,7 @@ const chatService = function() {
     $('#loading-message-container').hide();
     $('#send-message-spinner').hide();
 
-    let messageArray = [
-        {
-            username: "oluyemi",
-            message: "This is a new message"
-        },
-        {
-            username: "Demo",
-            message: "This is a new for demo"
-        },
-        {
-            username: "sample",
-            message: "Another reply from me"
-        }
-    ];
+    let messageArray = [];
 
     if (messageArray.length < 1) {
         $('#empty-chat').show();
